@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background:linear-gradient(grey,black);}
+li{
+    width: 250px;
+}
+.logo a{
+    margin:0 0 10px 10px;
+    font-size: 40px;
+    font-weight: 800;
+    color:antiquewhite;
+    text-decoration: none;
+}
+.logo a:hover{
+    color:lightgreen;
+    transition: 0.5s ease-in-out;
+}
+.icon1,.icon2{
+    height: 40px;
+    width: 40px;
+    margin-inline-start: 80px;
+}
+.icon2{
+    display: none;
+}
+.icon1:hover,.icon2 :hover{
+    color:lightgreen;
+    transition: 0.5s ease-in-out;
+}
+@media screen and (max-width:1300px) {
+    .icon1{
+        display:block;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 500px;
+        transition:0.5s ease-in-out;
+    }
+    .icon2{
+        display:initial;
+        transition: 0.5s ease-in-out;
+    }
+    .nav{
+        height: 70%;
+        padding: 10px 20px;
+    }
+    .first {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background:radial-gradient(blue,purple);
+        width: 300px;
+        height: 70%;
+        padding-top: 50px;
+        transition: 0.5s ease-in-out;
+        padding-left: 50px;
+    }
+    .first.active{
+        right: 0;
+    }
+    .first ul{
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .first li{
+        width: 600px;
+        height: 100px;
+    }
+    
+}
+
+ nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b2430;
+    padding:10px 10px;
+    padding-bottom: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0.06);
+    color: aliceblue;
+}
+.first ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    
+}
+.first ul a,li{
+    color:whitesmoke;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-block-end: 20px;
+    font-weight: 600;
+    margin-inline-start: 60px;
+}
+.first ul li a:hover{
+    color: lightgreen;
+    transition: all 0.45s ease-in-out;
+    text-decoration:underline;
+    border-color: antiquewhite;
+    border-width: 100%;
+    border-bottom: 20px;
+}
+
+
+
+

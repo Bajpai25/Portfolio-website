@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.about-main{
+    background-image: url("https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65rem;
+}
+.quote{
+    object-fit: contain;
+    width: 100%;
+    height: 45rem;
+}
+.profile{
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+}
+.about2{
+    height: 40rem;
+    width: 100%;
+     display: flex; 
+}
+.intro{
+    object-fit: contain;
+    width: 45rem;
+}
+.my{
+    object-fit: contain;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px 5px white;
+}
+.about-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    font-size: 80px;
+    font-weight: 800;
+}
+.bio{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line2{padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight:400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills{padding-left: 10px;
+    padding-top: 10px;
+    color: white; 
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.li{padding-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+    padding-left: 10px;
+}
+.text-file{
+    background :linear-gradient(grey,brown);
+box-shadow: 5px 5px 20px 20px white;}
+.text-file:hover{
+    box-shadow: 5px 5px 20px 20px black;
+
+}
+.im{
+    height: 60px;
+    margin-left: 20px;
+}
+@media  screen and (max-width:1000px) {
+        .about2{
+            height: 90rem;
+            flex-direction: column;
+        }  
+        .my,.intro,.text-file{
+            margin-left: 5rem;
+            width:80%;
+            object-fit: cover;
+            height: 38rem;
+        }  
+        .bio,.skills,.li{
+            font-size: large;
+        }
+        .li button{
+            font-size: 10px;
+        }
+}
+
+ 

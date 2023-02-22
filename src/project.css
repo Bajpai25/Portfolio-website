@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.project1{
+    background-image: url(./project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    width: 100%;
+}
+.projecttitle{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    font-size: 80px;
+    font-weight: 800;
+}
+.card{
+    margin-top: 2rem;
+}
+.bigcard{
+    margin-inline: 7rem;
+    margin-top: 3rem; 
+    width: fit-content;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px white;
+}
+.pehla{
+    display: inline-flex;
+}
+.upar{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 0px 0px 8px;
+}
+
+@media screen and (max-width:1000px){
+    .pehla{
+        flex-direction: column;
+    }
+}
