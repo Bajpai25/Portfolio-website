@@ -29,6 +29,7 @@
     height: 40rem;
     width: 100%;
     display: flex;
+    background-color:#333333;
 }
 
 .intro {

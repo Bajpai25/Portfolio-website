@@ -3,20 +3,25 @@
 
 /* Add new CSS for responsive navbar */
 .body{
-    background-color: #333333;
+  background-color: #333333;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #333333;
+  }
+  .li{
+    font-weight: bold;
+    font-size:3rem;
   }
   
   .logo a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 4rem;
     text-decoration: none;
+    font-weight: bold;
   }
   
   .first ul {
@@ -27,9 +32,11 @@ nav {
   
   .first li {
     margin-right: 1rem;
+    font-weight:bold;
   }
   
   .first a {
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
   }
@@ -38,7 +45,7 @@ nav {
     display: none;
     cursor: pointer;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   
   /* CSS for mobile devices */
