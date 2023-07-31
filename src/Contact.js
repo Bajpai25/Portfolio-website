@@ -39,7 +39,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
 <input type="numeric" id="number" placeholder="+91"  className='input'/>
 <button type='submit' className='submit' onClick={handleclick}>Submit</button>
 
-<p>{click? (<BiHappyBeaming className='happy'/>) : (<BiSad className='sad'/>)
+<p className='react-icons'>{click? (<BiHappyBeaming className='happy'/>) : (<BiSad className='sad'/>)
  }</p>
  <p>{click ? (<h2>Your response has been recorded!</h2>) : (<h3></h3>)}</p>
  </form>

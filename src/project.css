@@ -1,37 +1,44 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-.project1{
+
+.project1 {
     background-image: url(./project.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55rem;
+    height: 50rem;
     width: 100%;
 }
-.projecttitle{
+
+.projecttitle {
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 30px;
     font-size: 80px;
     font-weight: 800;
 }
-.card{
+
+.card {
     margin-top: 2rem;
 }
-.bigcard{
+
+.bigcard {
     margin-inline: 7rem;
-    margin-top: 3rem; 
+    margin-top: 3rem;
     width: fit-content;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px white;
 }
-.pehla{
-    display: inline-flex;
+
+.pehla {
+    display: flex;
+    justify-content: space-around;
 }
-.upar{
+
+.upar {
     color: white;
     font-size: 25px;
     font-weight: 700;
@@ -39,8 +46,42 @@
     padding: 5px 0px 0px 8px;
 }
 
-@media screen and (max-width:1000px){
-    .pehla{
-        flex-direction: column;
+/* Mobile Devices */
+@media screen and (max-width: 1000px) {
+    .project1 {
+        height: 25rem; /* Adjust the height for mobile */
+        width:100%;
     }
+
+    .projecttitle {
+        font-size: 30px; /* Adjust the font size for mobile */
+    }
+
+    .upar {
+        font-size: 12px; /* Adjust the font size for mobile */
+    }
+
+    .bigcard {
+        margin:0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-inline: 2rem; /* Adjust the horizontal margin for mobile */
+       /* Adjust the top margin for mobile */
+        width: 90%; /* Adjust the width for mobile */
+        height: 35rem;
+    }
+    .card{
+        width:fit-content;
+        background-size: contain;
+    }
+    .card.img{
+        height:20rem;
+        width: 20rem;
+    }
+
+    .pehla {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
 }
