@@ -29,9 +29,6 @@ const Header = () => {
             <li>
               <NavLink to="/project">Projects<GiFilmProjector className='project' /></NavLink>
             </li>
-            <li>
-              <NavLink to="/contact">Contact<AiFillContacts className='contact' /></NavLink>
-            </li>
           </ul>
         </div>
         <div className='menu' onClick={handleClick}>
