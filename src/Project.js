@@ -40,18 +40,6 @@ import "./project.css"
   </div>
   </div>
   </div>
-  <div className="bigcard">
-  <p className='upar'>Resume builder <FaFileAlt/></p>
-  <div className="card">
-  <img src="./assets/Rescape.png" alt='src'></img>
-  <div className="info">
-    <h2>Rescape..</h2>
-    <p>This is a Resume Generator. Community Project!! 
-    </p>
-    <button className='visit'><a href="https://rescape-sasuke.web.app/">Visit</a></button>
-  </div>
-  </div>
-  </div>
   </div>
   <div className="pehla"> 
 <div className="bigcard">
@@ -67,6 +55,46 @@ import "./project.css"
   </div>
   </div>
   <div className="bigcard">
+  <p className='upar'>Resume builder <FaFileAlt/></p>
+  <div className="card">
+  <img src="./assets/Rescape.png" alt='src'></img>
+  <div className="info">
+    <h2>Rescape..</h2>
+    <p>This is a Resume Generator. Community Project!! 
+    </p>
+    <button className='visit'><a href="https://rescape-sasuke.web.app/">Visit</a></button>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div className="pehla">
+    <div className='bigcard'>
+      <p className='upar'>Talent Terrain <MdShoppingCart/></p>
+      <div className="card">
+      <img src="./assets/employee.png" alt='src'></img>
+  <div className="info">
+    <h2>Employee Management webapp</h2>
+    <p>This is an Employee Management webapp.  
+    </p>
+    <button className='visit'><a href="https://frontend-iota-lovat.vercel.app/">Visit</a></button>
+  </div>
+  </div>
+      </div>
+      <div className="bigcard">
+  <p className='upar'>Chuckle Factory <GiTakeMyMoney/></p>
+  <div className="card">
+  <img src="./assets/chuckle.png" alt='src'></img>
+  <div className="info">
+    <h2>Chuckle Factory</h2>
+    <p>Your daily Laughter solution..
+    </p>
+    <button className='visit'><a href="https://task2-internship.vercel.app/">Visit</a></button>
+  </div>
+  </div>
+  </div>
+    </div>
+    <div className="pehla">
+    <div className="bigcard">
   <p className='upar'>Keep Clone <SiGooglesheets/></p>
   <div className="card">
   <img src="./assets/google.png" alt='src'></img>
@@ -79,44 +107,18 @@ import "./project.css"
   </div>
   </div>
   <div className="bigcard">
-  <p className='upar'>TO-DO List <SiTodoist/></p>
-  <div className="card">
-  <img src="./assets/list.png" alt='src'></img>
-  <div className="info">
-    <h2>TO-DO List...</h2>
-    <p>You wanna memorise it ; then write it down in our TO-DO list App. 
-    </p>
-    <button className='visit'><a href="https://rescape-sasuke.web.app/">Visit</a></button>
-  </div>
-  </div>
-  </div>
-  </div>
-  <div className="pehla">
-    <div className='bigcard'>
-      <p className='upar'>E-commerce Site <MdShoppingCart/></p>
-      <div className="card">
-      <img src="./assets/Rescape.png" alt='src'></img>
-  <div className="info">
-    <h2>E-commerce Site..</h2>
-    <p>This is an E-commerce shopping website.  
-    </p>
-    <button className='visit'><a href="https://rescape-sasuke.web.app/">Visit</a></button>
-  </div>
-  </div>
-      </div>
-      <div className="bigcard">
-  <p className='upar'> Expense Tracker <GiTakeMyMoney/></p>
+  <p className='upar'>Expense Tracker <SiGooglesheets/></p>
   <div className="card">
   <img src="./assets/tracker.png" alt='src'></img>
   <div className="info">
     <h2>Expense Tracker</h2>
-    <p>TRACK Your CashFlow..
+    <p>Your daily life expense tracker. 
     </p>
-    <button className='visit'><a href="https://expense-tracker-d8f74.web.app">Visit</a></button>
+    <button className='visit'><a href="https://clone2--keep.web.app">Visit</a></button>
   </div>
   </div>
   </div>
-    </div>
+  </div>
     </>
   )
 }
